@@ -56,21 +56,13 @@ dt.predict([[0.5,0.8,9,260,6,0,1,2]])
 ```
 
 ## Output:
-#### data.head()
 ![Screenshot 2023-06-03 181522](https://github.com/Yamunaasri/Implementation-of-Decision-Tree-Classifier-Model-for-Predicting-Employee-Churn/assets/115707860/28a02272-d076-488b-bc0e-258db61a3b29)
-#### data.info()
 ![Screenshot 2023-06-03 181528](https://github.com/Yamunaasri/Implementation-of-Decision-Tree-Classifier-Model-for-Predicting-Employee-Churn/assets/115707860/cdc55078-656b-49d7-b171-ba2be9a56bfd)
-#### isnull() and sum()
 ![Screenshot 2023-06-03 181534](https://github.com/Yamunaasri/Implementation-of-Decision-Tree-Classifier-Model-for-Predicting-Employee-Churn/assets/115707860/c8005750-fb30-47db-9c4d-6309e48560b7)
-#### data value counts()
 ![Screenshot 2023-06-03 181649](https://github.com/Yamunaasri/Implementation-of-Decision-Tree-Classifier-Model-for-Predicting-Employee-Churn/assets/115707860/8cbea8e5-088d-4896-8c3f-eabcedd9b7a0)
-#### data.head() for salary
 ![Screenshot 2023-06-03 181719](https://github.com/Yamunaasri/Implementation-of-Decision-Tree-Classifier-Model-for-Predicting-Employee-Churn/assets/115707860/7123868e-1b73-448a-a92c-bfcb52c69d22)
-#### x.head()
 ![Screenshot 2023-06-03 181729](https://github.com/Yamunaasri/Implementation-of-Decision-Tree-Classifier-Model-for-Predicting-Employee-Churn/assets/115707860/7900550f-09ae-4b93-baa2-4e1d8cd21967)
-#### accuracy value
 ![Screenshot 2023-06-03 181805](https://github.com/Yamunaasri/Implementation-of-Decision-Tree-Classifier-Model-for-Predicting-Employee-Churn/assets/115707860/d6235dee-d231-4eb2-9540-5a8fcc8d845f)
-#### data prediction
 ![Screenshot 2023-06-03 181815](https://github.com/Yamunaasri/Implementation-of-Decision-Tree-Classifier-Model-for-Predicting-Employee-Churn/assets/115707860/79384c60-837a-474e-adc4-cb88724287ce)
 
 ## Result:
