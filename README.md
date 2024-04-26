@@ -28,6 +28,8 @@ data.head()
 data.info()
 data.isnull().sum()
 data["left"].value_counts()
+```
+```
 from sklearn.preprocessing import LabelEncoder
 le=LabelEncoder()
 data["salary"]=le.fit_transform(data["salary"])
@@ -37,6 +39,8 @@ x.head()    #no departments and no left
 y=data["left"]
 from sklearn.model_selection import train_test_split
 x_train,x_test,y_train,y_test=train_test_split(x,y,test_size=0.2,random_state=100)
+```
+```
 from sklearn.tree import DecisionTreeClassifier
 dt=DecisionTreeClassifier(criterion="entropy")
 dt.fit(x_train,y_train)
@@ -48,6 +52,7 @@ dt.predict([[0.5,0.8,9,260,6,0,1,2]])
 ```
 
 ## Output:
+
 #### data.head()
 ![Screenshot 2023-06-03 181522](https://github.com/Yamunaasri/Implementation-of-Decision-Tree-Classifier-Model-for-Predicting-Employee-Churn/assets/115707860/28a02272-d076-488b-bc0e-258db61a3b29)
 
@@ -71,7 +76,6 @@ dt.predict([[0.5,0.8,9,260,6,0,1,2]])
 
 #### data prediction
 ![Screenshot 2023-06-03 181815](https://github.com/Yamunaasri/Implementation-of-Decision-Tree-Classifier-Model-for-Predicting-Employee-Churn/assets/115707860/79384c60-837a-474e-adc4-cb88724287ce)
-
 
 ## Result:
 Thus the program to implement the  Decision Tree Classifier Model for Predicting Employee Churn is written and verified using python programming.
