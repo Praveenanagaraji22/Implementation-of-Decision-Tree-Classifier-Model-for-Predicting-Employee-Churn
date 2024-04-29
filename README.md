@@ -9,12 +9,12 @@ To write a program to implement the Decision Tree Classifier Model for Predictin
 
 ## Algorithm
 ```
-Step 1 - Start
+Step 1 - Start the program
 Step 2 - Import pandas
 Step 3 - Import Decision tree classifier
 Step 4 - Fit the data in the model
 Step 5 - Find the accuracy score
-Step 6 - Stop
+Step 6 - Stop the program
 ```
 
 ## Program:
