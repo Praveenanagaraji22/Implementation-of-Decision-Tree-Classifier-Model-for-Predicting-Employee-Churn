@@ -8,10 +8,12 @@ To write a program to implement the Decision Tree Classifier Model for Predictin
 2. Anaconda – Python 3.7 Installation / Jupyter notebook
 
 ## Algorithm
-1. Import pandas
-2. Import Decision tree classifier
-3. Fit the data in the model
-4. Find the accuracy score
+Step 1 - Start
+Step 2 - Import pandas
+Step 3 - Import Decision tree classifier
+Step 4 - Fit the data in the model
+Step 5 - Find the accuracy score
+Step 6 - Stop
 
 ## Program:
 ```
@@ -56,21 +58,26 @@ dt.predict([[0.5,0.8,9,260,6,0,1,2]])
 ```
 
 ## Output:
-![Screenshot 2023-06-03 181522](https://github.com/Yamunaasri/Implementation-of-Decision-Tree-Classifier-Model-for-Predicting-Employee-Churn/assets/115707860/28a02272-d076-488b-bc0e-258db61a3b29)
+#### data.head()
+![Screenshot 2023-06-03 182518](https://github.com/Yamunaasri/Implementation-of-Decision-Tree-Regressor-Model-for-Predicting-the-Salary-of-the-Employee/assets/115707860/74928a7e-5490-4f21-a455-081786ea5ce3)
 
-![Screenshot 2023-06-03 181528](https://github.com/Yamunaasri/Implementation-of-Decision-Tree-Classifier-Model-for-Predicting-Employee-Churn/assets/115707860/cdc55078-656b-49d7-b171-ba2be9a56bfd)
+#### data.info()
+![Screenshot 2023-06-03 182529](https://github.com/Yamunaasri/Implementation-of-Decision-Tree-Regressor-Model-for-Predicting-the-Salary-of-the-Employee/assets/115707860/ca791c21-ecb7-4869-95a4-3b833cc925e3)
 
-![Screenshot 2023-06-03 181534](https://github.com/Yamunaasri/Implementation-of-Decision-Tree-Classifier-Model-for-Predicting-Employee-Churn/assets/115707860/c8005750-fb30-47db-9c4d-6309e48560b7)
+#### isnull() and sum()
+![Screenshot 2023-06-03 182535](https://github.com/Yamunaasri/Implementation-of-Decision-Tree-Regressor-Model-for-Predicting-the-Salary-of-the-Employee/assets/115707860/e349e8a7-c2f3-4afe-9707-603ee307cd5b)
 
-![Screenshot 2023-06-03 181649](https://github.com/Yamunaasri/Implementation-of-Decision-Tree-Classifier-Model-for-Predicting-Employee-Churn/assets/115707860/8cbea8e5-088d-4896-8c3f-eabcedd9b7a0)
+#### data.head() for salary 
+![Screenshot 2023-06-03 182544](https://github.com/Yamunaasri/Implementation-of-Decision-Tree-Regressor-Model-for-Predicting-the-Salary-of-the-Employee/assets/115707860/fa80dab8-37c3-44c8-86ac-9301b2128636)
 
-![Screenshot 2023-06-03 181719](https://github.com/Yamunaasri/Implementation-of-Decision-Tree-Classifier-Model-for-Predicting-Employee-Churn/assets/115707860/7123868e-1b73-448a-a92c-bfcb52c69d22)
+#### MSE value
+![Screenshot 2023-06-03 182650](https://github.com/Yamunaasri/Implementation-of-Decision-Tree-Regressor-Model-for-Predicting-the-Salary-of-the-Employee/assets/115707860/d48a86c5-919c-47f2-8ffd-8ca51ca8687c)
 
-![Screenshot 2023-06-03 181729](https://github.com/Yamunaasri/Implementation-of-Decision-Tree-Classifier-Model-for-Predicting-Employee-Churn/assets/115707860/7900550f-09ae-4b93-baa2-4e1d8cd21967)
+#### r2 value
+![Screenshot 2023-06-03 182656](https://github.com/Yamunaasri/Implementation-of-Decision-Tree-Regressor-Model-for-Predicting-the-Salary-of-the-Employee/assets/115707860/c9c2d65d-f9ff-4a10-9a8e-7270c067d025)
 
-![Screenshot 2023-06-03 181805](https://github.com/Yamunaasri/Implementation-of-Decision-Tree-Classifier-Model-for-Predicting-Employee-Churn/assets/115707860/d6235dee-d231-4eb2-9540-5a8fcc8d845f)
-
-![Screenshot 2023-06-03 181815](https://github.com/Yamunaasri/Implementation-of-Decision-Tree-Classifier-Model-for-Predicting-Employee-Churn/assets/115707860/79384c60-837a-474e-adc4-cb88724287ce)
-
+#### data prediction
+![image](https://github.com/Jaiganesh235/Implementation-of-Decision-Tree-Regressor-Model-for-Predicting-the-Salary-of-the-Employee/assets/118657189/485e2f7f-5060-40f2-8ae2-931a8cd39867)
+ 
 ## Result:
 Thus the program to implement the  Decision Tree Classifier Model for Predicting Employee Churn is written and verified using python programming.
